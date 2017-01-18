@@ -19,3 +19,33 @@ var compare = function(choice1, choice2){
     }
 };
 
+
+
+//var compare = function(choice1, choice2)
+ //   if(choice1 === choice2){
+ //         return "The result is a tie!";
+ // }
+ //        if(choice2 === "scissors") {
+  //       return "rock wins";
+  //      }
+  //      else {
+  //          return "paper wins";
+   //      }
+
+
+var compare = function (choice1, choice2) {
+  if (choice1 === choice2) {
+    return "The result is a tie!";
+  }
+
+  if (choice1 < 0.34) {
+    if (choice2 === "scissors") {
+      return "rock wins";
+    } else if (choice2 === "paper") {
+      return "paper wins";
+    }
+  }
+}
+
+
+
