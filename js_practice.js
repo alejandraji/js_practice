@@ -64,6 +64,8 @@ for (var i = 5; i <=50; i+=5) {
   console.log(i);
 }
 
+// created a for loop starts at 8 and keeps counting until 120, and
 
-
-
+for (var i = 8 ; i < 120; i+=12) {
+  console.log(i);
+}
