@@ -69,3 +69,9 @@ for (var i = 5; i <=50; i+=5) {
 for (var i = 8 ; i < 120; i+=12) {
   console.log(i);
 }
+
+
+/// starts counting from 10 and it stops once it gets to 0, and is counting down by 1
+for (var i = 10; i >= 0; i--) {
+  console.log(i);
+}
