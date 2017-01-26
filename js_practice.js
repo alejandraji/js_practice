@@ -75,3 +75,11 @@ for (var i = 8 ; i < 120; i+=12) {
 for (var i = 10; i >= 0; i--) {
   console.log(i);
 }
+
+//for loop that counts down from 100 until 0 by 5 (and does not print out 0)
+
+for(var i=100; i>0; i-=5){
+    console.log(i);
+}
+
+
