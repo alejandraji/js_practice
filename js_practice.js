@@ -82,4 +82,31 @@ for(var i=100; i>0; i-=5){
     console.log(i);
 }
 
+// created an array with 5 names and a for loop to call all 5
+var names = ["alejandra", "armando", "andrea", "amir","allison"];
+    for(var i=0; i < 5;i++){
+     console.log("I know someone called " + names[i]);
+ }
+
+///completed search text for your name
+
+/*jshint multistr:true */
+ var text = "resist resist ale resist resist resist\ resist ale resist resist ale resist";
+
+ var myName = "ale";
+ var hits = []
+
+    for(var i=0;i<text.length; i++) {
+
+if (text[i] === myName[0]){
+for (var j = i; j < myName.length + i; j++) {
+    hits.push(text[j]);
+        }
+      }
+}
+if(hits === 0){
+    console.log("Your name wasn't found!");
+    } else {
+        console.log(hits);
+    }
 
