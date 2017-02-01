@@ -124,6 +124,27 @@ var loop = function(){
 
 loop();
 
+///
+var theLoop = true;
 
+var soloLoop = function(){
+  while(theLoop) {
+    console.log("Looped once!");
+    theLoop = false;
+  }
+};
 
+soloLoop();
 
+/// wrote a for loop and a while loop
+var blackCat = true;
+
+  while(blackCat) {
+    console.log("the cat is black");
+    blackCat = false;
+  }
+
+// prints out numbers 1-20
+for (var i = 1; i <21; i++){
+    console.log(i);
+}
