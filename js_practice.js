@@ -110,3 +110,20 @@ if(hits === 0){
         console.log(hits);
     }
 
+
+/// practice with while loops, created a while loop that logs "I'm looping!" three times
+
+var count = 0;
+
+var loop = function(){
+  while(count < 3){
+    console.log("I'm looping!");
+    count++
+  }
+};
+
+loop();
+
+
+
+
