@@ -210,3 +210,22 @@ case 'yellow':
   default:
     console.log("I don't think that's a primary color!");
 }
+
+/// created own switch statement
+var growlers = prompt("which one is your favorite song from them?");
+
+switch(growlers) {
+    case 'black memories':
+    console.log("favorite chinese fountain song")
+    break;
+    case 'going gets tough':
+        console.log("also a good one from CF album");
+        break;
+    case 'night ride':
+        console.log("favorite song from the last album");
+        break;
+    default :
+    console.log("they have amazing music and albums");
+}
+
+
