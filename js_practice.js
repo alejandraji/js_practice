@@ -179,24 +179,13 @@ while(slaying){
 }
 
 
-///
-var slaying = true;
-var youHit = Math.floor(Math.random() * 2)
-var damageThisRound = Math.floor(Math.random()*5 + 1)
-var totalDamage = 0;
+/// return true if number is divisible by 2
 
-while(slaying){
-    if (youHit){
-        console.log("You hit!");
-         totalDamage += damageThisRound
-        if (totalDamage >= 4) {
-            console.log("You win!");
-            slaying = false;
-    } else {
-         youHit = Math.floor(Math.random() * 2);
-    }
-    console.log("You lose!");
-    slaying = false;
-    }
-}
-
+var isEven = function(number) {
+ if (number % 2 === 0) {
+     return true;
+ }
+ else{
+     return false;
+ }
+};
