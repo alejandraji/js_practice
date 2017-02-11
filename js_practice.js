@@ -228,4 +228,17 @@ switch(growlers) {
     console.log("they have amazing music and albums");
 }
 
+///using logical operatos &&
+
+
+var hungry = true;
+var foodHere = true;
+
+var eat = function() {
+    if (hungry && foodHere){
+        return true;
+    } else {
+        return false;
+    }
+};
 
