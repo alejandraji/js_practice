@@ -241,4 +241,16 @@ var eat = function() {
         return false;
     }
 };
+// if/ else if ||
+var tired = true;
+var bored = false;
+
+var nap = function() {
+  // Add your if/else statement here!
+  if (tired || bored){
+      return true;
+  }else if (tired===false || bored===false){
+      return false;
+  }
+};
 
