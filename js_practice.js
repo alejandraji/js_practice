@@ -266,3 +266,23 @@ var happy = function() {
   }
 
 };
+
+/// coding your own adventure....
+var user = prompt("how many tacos can you eat?").toUpperCase();
+
+switch(user) {
+    case'One':
+        console.log("one, is not enough");
+        break;
+    case 'Two':
+        console.log("two, is almost enough");
+        break;
+        case 'Three':
+            console.log("three, is a perfect amount!");
+            break;
+
+        default:
+        console.log("an abundance of tacos is not too much, ever!");
+}
+
+///
