@@ -253,4 +253,16 @@ var nap = function() {
       return false;
   }
 };
+/// programming returns false
 
+var programming = false;
+
+var happy = function() {
+  // Add your if/else statement here!
+  if ( programming === !true){
+      return true;
+  } else if (programming === true){
+      return false;
+  }
+
+};
