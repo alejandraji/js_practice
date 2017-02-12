@@ -286,3 +286,35 @@ switch(user) {
 }
 
 ///
+var user = prompt("how many tacos can you eat?").toUpperCase();
+
+switch(user) {
+    case'One':
+        if( one == 1){
+
+        console.log("one, is not enough");
+        }
+        else {
+            console.log("i can eat more!");
+        }
+        break;
+    case 'Two':
+        if( one || two){
+
+        console.log("one, is not enough");
+        }
+        else {
+          console.log("two, is almost enough");
+}
+    break;
+        case 'Three':
+           if( one && two){
+
+        console.log("one, is not enough");
+        }
+        else {
+          console.log("two, is almost enough");
+        }
+
+        default:
+        console.log("an abundance of tacos is not too much, ever!");
