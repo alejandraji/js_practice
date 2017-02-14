@@ -318,3 +318,9 @@ switch(user) {
 
         default:
         console.log("an abundance of tacos is not too much, ever!");
+/// arrays
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+
+for (var i = 0; i< languages.length; i++){
+    console.log(languages[i]);
+}
