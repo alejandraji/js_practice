@@ -324,3 +324,6 @@ var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
 for (var i = 0; i< languages.length; i++){
     console.log(languages[i]);
 }
+
+/// heterogeneous arrays, which is a mixture of data types
+var myArray = [ 1000000, true,"Women's March"];
