@@ -327,3 +327,9 @@ for (var i = 0; i< languages.length; i++){
 
 /// heterogeneous arrays, which is a mixture of data types
 var myArray = [ 1000000, true,"Women's March"];
+
+
+// two dimensional arrays by nesting an array a layer deep; contains three rows with three elements
+var newArray = [[1,5,7],[5,4,7],[6,8,9]];
+
+
