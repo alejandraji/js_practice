@@ -331,5 +331,10 @@ var myArray = [ 1000000, true,"Women's March"];
 
 // two dimensional arrays by nesting an array a layer deep; contains three rows with three elements
 var newArray = [[1,5,7],[5,4,7],[6,8,9]];
-
-
+// jagged arrays--having
+var jagged = [[1,4],["red","black", 3]];
+// working with objects and values inside the objects
+var me = {
+    name: "alejandra",
+    age: 27
+};
