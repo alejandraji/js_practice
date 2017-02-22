@@ -353,4 +353,10 @@ object2.age = 28;
 var object3 = new Object();
 object3.name = "armando"
 object3.age = 30;
+//// created a heterogeneous array that included an object
+var myObj = {
+    type: 'red color',
 
+}
+
+var myArray = [ 2, false, "natalia lafourcade", [myObj]];
