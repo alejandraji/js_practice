@@ -425,3 +425,20 @@ for(var prop in obj) {
 console.log(prop);
 }
 };
+
+///
+var search = function(name){
+    for (var prop in friends)
+    if (name === friends[prop].firstName){
+    console.log(friends[prop]);
+    return  friends [prop];
+    }
+}
+///
+var answer = (((3 * 90) === 270) || !(false && true) || "bex".toUpperCase() === "BEX");
+// introduction to objects 1
+var multiplesOfEight = [8,16,24,32,40,];
+
+// Test to see if a number from the array is NOT a true
+// multiple of eight. Real multiples will return false.
+var answer = multiplesOfEight[true] % 8 !== 0;
