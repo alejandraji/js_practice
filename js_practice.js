@@ -360,3 +360,11 @@ var myObj = {
 }
 
 var myArray = [ 2, false, "natalia lafourcade", [myObj]];
+///
+
+
+var nameObj = {
+    name: "alejandra",
+};
+
+var newArray = [[1084,24],[nameObj]];
