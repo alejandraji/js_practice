@@ -368,3 +368,14 @@ var nameObj = {
 };
 
 var newArray = [[1084,24],[nameObj]];
+
+
+/// editing an existing object
+
+var yoga = ["yoga","barre"];
+var myObject = {
+  name: 'Eduardo',
+  type: 'Most excellent',
+  interests: yoga
+
+};
