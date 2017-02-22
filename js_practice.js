@@ -379,3 +379,49 @@ var myObject = {
   interests: yoga
 
 };
+
+/// adding properties to the objects
+var friends = {
+    bill: {
+        firstName: "Bill",
+        lastName: "Gates",
+        number: "(555) 555-4543"
+        },
+    steve: {
+        firstName: "Steve",
+        lastName: "Adams",
+        number: "(555) 525-4543"
+        },
+    robert: {
+        firstName: "Robert",
+        lastName: "Williams",
+        number: "(453) 555-4543"
+        }
+};
+///
+var friends = {
+    bill: {
+        firstName: "Bill",
+        lastName: "Gates",
+        number: "(555) 555-4543",
+        address: ['234 nostrand ave','Chino','WA','90640']
+        },
+    steve: {
+        firstName: "Steve",
+        lastName: "Adams",
+        number: "(555) 525-4543",
+        address: ['674 nostrand ave','chino','WA','90640']
+        },
+    robert: {
+        firstName: "Robert",
+        lastName: "Williams",
+        number: "(453) 555-4543",
+        address: ['7544 nostrand ave','Montebello','WA','90640']
+        }
+};
+
+var list = function(obj) {
+for(var prop in obj) {
+console.log(prop);
+}
+};
