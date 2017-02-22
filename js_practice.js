@@ -338,3 +338,19 @@ var me = {
     name: "alejandra",
     age: 27
 };
+
+
+
+/// created three objects using  object constructor notation
+var object1 = new Object();
+object1.name = "alejandra";
+object1.age = 27;
+
+var object2 = new Object();
+object2.name = "rudik";
+object2.age = 28;
+
+var object3 = new Object();
+object3.name = "armando"
+object3.age = 30;
+
