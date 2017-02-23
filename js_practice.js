@@ -442,3 +442,37 @@ var multiplesOfEight = [8,16,24,32,40,];
 // Test to see if a number from the array is NOT a true
 // multiple of eight. Real multiples will return false.
 var answer = multiplesOfEight[true] % 8 !== 0;
+///
+  for(var i = 1; i < 21; i++) {
+    if(i%3 === 0 && i%5 === 0) {
+    console.log("FizzBuzz");
+  }
+    else if(i%3 === 0) {
+    console.log("Fizz");
+  }
+    else if(i%5 === 0) {
+    console.log("Buzz");
+  }
+    else {
+    console.log(i);
+  }
+}
+
+/// working with objects
+var getReview = function (movie) {
+    switch(movie){
+    case "Toy Story 2":
+        return "Great story. Mean prospector.";
+        break;
+    case "Finding Nemo":
+        return "Cool animation, and funny turtles.";
+        break;
+        case "The Lion King":
+        return "Great songs.";
+        break;
+    default :
+        return "I don't know!"
+
+    }
+};
+
