@@ -519,4 +519,14 @@ var susan2 = new Object();
 susan1.name = "Susan Jordan";
 susan1.age = 24;
 
+/// objects
+var snoopy = {
+    species: "beagle",
+    age: 10,
+};
+
+
+var buddy = new Object();
+buddy.species = "golden retriever";
+buddy.age = 5;
 
