@@ -530,3 +530,24 @@ var buddy = new Object();
 buddy.species = "golden retriever";
 buddy.age = 5;
 
+///
+var bicycle = new Object();
+bicycle.speed = 0;
+bicycle.gear = 1;
+bicycle.frame_material = "carbon fiber";
+///
+var square = function (x) {
+  return x * x;
+};
+
+// Write the function multiply below
+// It should take two parameters and return the product
+
+var multiply = function(x,y){
+    return x * y;
+};
+
+multiply(5,6);
+
+
+
