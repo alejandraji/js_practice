@@ -549,5 +549,36 @@ var multiply = function(x,y){
 
 multiply(5,6);
 
+// wrote a constructor, created an empty array, created four objects using the Person constructor, then created a for loop
+
+// Our Person constructor
+function Person(name,age){
+    this.name = name;
+    this.age = age;
+};
+
+var family =  [];
+family[0] = new Person("alice",40);
+family[1] = new Person("bob", 42);
+family[2] = new Person("michelle", 8);
+family[3] = new Person("timmy", 6);
+
+
+// loop through our new array
+ for(var i = 0; i < family.length; i++){
+     console.log (family[i].name);
+
+ };
+///
+var ageDifference = function(person1, person2) {
+    return person1.age - person2.age;
+}
+
+var alice = new Person("Alice", 30);
+var billy = new Person("Billy", 25);
+
+// get the difference in age between alice and billy using our function
+var diff =ageDifference(alice,billy);
+
 
 
